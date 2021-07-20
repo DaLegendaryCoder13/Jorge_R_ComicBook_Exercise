@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F02FBEF26A76E7B00872C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02FBEE26A76E7B00872C81 /* AppDelegate.swift */; };
+		3F02FBF126A76E7B00872C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02FBF026A76E7B00872C81 /* SceneDelegate.swift */; };
+		3F02FBF326A76E7B00872C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02FBF226A76E7B00872C81 /* ViewController.swift */; };
+		3F02FBF626A76E7B00872C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FBF426A76E7B00872C81 /* Main.storyboard */; };
+		3F02FBF826A76E7F00872C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FBF726A76E7F00872C81 /* Assets.xcassets */; };
+		3F02FBFB26A76E7F00872C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FBF926A76E7F00872C81 /* LaunchScreen.storyboard */; };
+		3F02FC0626A76E8000872C81 /* Comic_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02FC0526A76E8000872C81 /* Comic_BookTests.swift */; };
+		3F02FC1126A76E8000872C81 /* Comic_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02FC1026A76E8000872C81 /* Comic_BookUITests.swift */; };
+		3F02FC1F26A7725800872C81 /* my-hero-academia-mangaka-anime-crunchyroll-manga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FC1E26A7725800872C81 /* my-hero-academia-mangaka-anime-crunchyroll-manga.jpg */; };
+		3F02FC2126A781FE00872C81 /* 274-2746806_todoroki-manga-png.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FC2026A781FE00872C81 /* 274-2746806_todoroki-manga-png.png */; };
+		3F02FC2326A7834E00872C81 /* eTMAkGrAc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F02FC2226A7834E00872C81 /* eTMAkGrAc.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F02FC0226A76E8000872C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F02FBE326A76E7B00872C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02FBEA26A76E7B00872C81;
+			remoteInfo = "Comic Book";
+		};
+		3F02FC0D26A76E8000872C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F02FBE326A76E7B00872C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02FBEA26A76E7B00872C81;
+			remoteInfo = "Comic Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F02FBEB26A76E7B00872C81 /* Comic Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02FBEE26A76E7B00872C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F02FBF026A76E7B00872C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F02FBF226A76E7B00872C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F02FBF526A76E7B00872C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F02FBF726A76E7F00872C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F02FBFA26A76E7F00872C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F02FBFC26A76E7F00872C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F02FC0126A76E8000872C81 /* Comic BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02FC0526A76E8000872C81 /* Comic_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_BookTests.swift; sourceTree = "<group>"; };
+		3F02FC0726A76E8000872C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F02FC0C26A76E8000872C81 /* Comic BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02FC1026A76E8000872C81 /* Comic_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_BookUITests.swift; sourceTree = "<group>"; };
+		3F02FC1226A76E8000872C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F02FC1E26A7725800872C81 /* my-hero-academia-mangaka-anime-crunchyroll-manga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "my-hero-academia-mangaka-anime-crunchyroll-manga.jpg"; path = "../../../Downloads/my-hero-academia-mangaka-anime-crunchyroll-manga.jpg"; sourceTree = "<group>"; };
+		3F02FC2026A781FE00872C81 /* 274-2746806_todoroki-manga-png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "274-2746806_todoroki-manga-png.png"; path = "../../../Downloads/274-2746806_todoroki-manga-png.png"; sourceTree = "<group>"; };
+		3F02FC2226A7834E00872C81 /* eTMAkGrAc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eTMAkGrAc.jpg; path = ../../../Downloads/eTMAkGrAc.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F02FBE826A76E7B00872C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FBFE26A76E8000872C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FC0926A76E8000872C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F02FBE226A76E7B00872C81 = {
+			isa = PBXGroup;
+			children = (
+				3F02FBED26A76E7B00872C81 /* Comic Book */,
+				3F02FC0426A76E8000872C81 /* Comic BookTests */,
+				3F02FC0F26A76E8000872C81 /* Comic BookUITests */,
+				3F02FBEC26A76E7B00872C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F02FBEC26A76E7B00872C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F02FBEB26A76E7B00872C81 /* Comic Book.app */,
+				3F02FC0126A76E8000872C81 /* Comic BookTests.xctest */,
+				3F02FC0C26A76E8000872C81 /* Comic BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F02FBED26A76E7B00872C81 /* Comic Book */ = {
+			isa = PBXGroup;
+			children = (
+				3F02FBEE26A76E7B00872C81 /* AppDelegate.swift */,
+				3F02FBF026A76E7B00872C81 /* SceneDelegate.swift */,
+				3F02FBF226A76E7B00872C81 /* ViewController.swift */,
+				3F02FBF426A76E7B00872C81 /* Main.storyboard */,
+				3F02FBF726A76E7F00872C81 /* Assets.xcassets */,
+				3F02FC1E26A7725800872C81 /* my-hero-academia-mangaka-anime-crunchyroll-manga.jpg */,
+				3F02FC2226A7834E00872C81 /* eTMAkGrAc.jpg */,
+				3F02FC2026A781FE00872C81 /* 274-2746806_todoroki-manga-png.png */,
+				3F02FBF926A76E7F00872C81 /* LaunchScreen.storyboard */,
+				3F02FBFC26A76E7F00872C81 /* Info.plist */,
+			);
+			path = "Comic Book";
+			sourceTree = "<group>";
+		};
+		3F02FC0426A76E8000872C81 /* Comic BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F02FC0526A76E8000872C81 /* Comic_BookTests.swift */,
+				3F02FC0726A76E8000872C81 /* Info.plist */,
+			);
+			path = "Comic BookTests";
+			sourceTree = "<group>";
+		};
+		3F02FC0F26A76E8000872C81 /* Comic BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F02FC1026A76E8000872C81 /* Comic_BookUITests.swift */,
+				3F02FC1226A76E8000872C81 /* Info.plist */,
+			);
+			path = "Comic BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F02FBEA26A76E7B00872C81 /* Comic Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02FC1526A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic Book" */;
+			buildPhases = (
+				3F02FBE726A76E7B00872C81 /* Sources */,
+				3F02FBE826A76E7B00872C81 /* Frameworks */,
+				3F02FBE926A76E7B00872C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comic Book";
+			productName = "Comic Book";
+			productReference = 3F02FBEB26A76E7B00872C81 /* Comic Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F02FC0026A76E8000872C81 /* Comic BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02FC1826A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic BookTests" */;
+			buildPhases = (
+				3F02FBFD26A76E8000872C81 /* Sources */,
+				3F02FBFE26A76E8000872C81 /* Frameworks */,
+				3F02FBFF26A76E8000872C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F02FC0326A76E8000872C81 /* PBXTargetDependency */,
+			);
+			name = "Comic BookTests";
+			productName = "Comic BookTests";
+			productReference = 3F02FC0126A76E8000872C81 /* Comic BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F02FC0B26A76E8000872C81 /* Comic BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F02FC1B26A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic BookUITests" */;
+			buildPhases = (
+				3F02FC0826A76E8000872C81 /* Sources */,
+				3F02FC0926A76E8000872C81 /* Frameworks */,
+				3F02FC0A26A76E8000872C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F02FC0E26A76E8000872C81 /* PBXTargetDependency */,
+			);
+			name = "Comic BookUITests";
+			productName = "Comic BookUITests";
+			productReference = 3F02FC0C26A76E8000872C81 /* Comic BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F02FBE326A76E7B00872C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3F02FBEA26A76E7B00872C81 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					3F02FC0026A76E8000872C81 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3F02FBEA26A76E7B00872C81;
+					};
+					3F02FC0B26A76E8000872C81 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 3F02FBEA26A76E7B00872C81;
+					};
+				};
+			};
+			buildConfigurationList = 3F02FBE626A76E7B00872C81 /* Build configuration list for PBXProject "Comic Book" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F02FBE226A76E7B00872C81;
+			productRefGroup = 3F02FBEC26A76E7B00872C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F02FBEA26A76E7B00872C81 /* Comic Book */,
+				3F02FC0026A76E8000872C81 /* Comic BookTests */,
+				3F02FC0B26A76E8000872C81 /* Comic BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F02FBE926A76E7B00872C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02FBFB26A76E7F00872C81 /* LaunchScreen.storyboard in Resources */,
+				3F02FC1F26A7725800872C81 /* my-hero-academia-mangaka-anime-crunchyroll-manga.jpg in Resources */,
+				3F02FBF826A76E7F00872C81 /* Assets.xcassets in Resources */,
+				3F02FC2326A7834E00872C81 /* eTMAkGrAc.jpg in Resources */,
+				3F02FC2126A781FE00872C81 /* 274-2746806_todoroki-manga-png.png in Resources */,
+				3F02FBF626A76E7B00872C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FBFF26A76E8000872C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FC0A26A76E8000872C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F02FBE726A76E7B00872C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02FBF326A76E7B00872C81 /* ViewController.swift in Sources */,
+				3F02FBEF26A76E7B00872C81 /* AppDelegate.swift in Sources */,
+				3F02FBF126A76E7B00872C81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FBFD26A76E8000872C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02FC0626A76E8000872C81 /* Comic_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02FC0826A76E8000872C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02FC1126A76E8000872C81 /* Comic_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F02FC0326A76E8000872C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02FBEA26A76E7B00872C81 /* Comic Book */;
+			targetProxy = 3F02FC0226A76E8000872C81 /* PBXContainerItemProxy */;
+		};
+		3F02FC0E26A76E8000872C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02FBEA26A76E7B00872C81 /* Comic Book */;
+			targetProxy = 3F02FC0D26A76E8000872C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F02FBF426A76E7B00872C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F02FBF526A76E7B00872C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F02FBF926A76E7F00872C81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F02FBFA26A76E7F00872C81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F02FC1326A76E8000872C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F02FC1426A76E8000872C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F02FC1626A76E8000872C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F02FC1726A76E8000872C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F02FC1926A76E8000872C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic Book.app/Comic Book";
+			};
+			name = Debug;
+		};
+		3F02FC1A26A76E8000872C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic BookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comic Book.app/Comic Book";
+			};
+			name = Release;
+		};
+		3F02FC1C26A76E8000872C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Comic Book";
+			};
+			name = Debug;
+		};
+		3F02FC1D26A76E8000872C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Comic BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Genesys-Work.Comic-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Comic Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F02FBE626A76E7B00872C81 /* Build configuration list for PBXProject "Comic Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02FC1326A76E8000872C81 /* Debug */,
+				3F02FC1426A76E8000872C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02FC1526A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02FC1626A76E8000872C81 /* Debug */,
+				3F02FC1726A76E8000872C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02FC1826A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02FC1926A76E8000872C81 /* Debug */,
+				3F02FC1A26A76E8000872C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F02FC1B26A76E8000872C81 /* Build configuration list for PBXNativeTarget "Comic BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02FC1C26A76E8000872C81 /* Debug */,
+				3F02FC1D26A76E8000872C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F02FBE326A76E7B00872C81 /* Project object */;
+}
